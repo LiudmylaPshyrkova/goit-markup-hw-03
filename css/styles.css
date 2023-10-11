@@ -5,7 +5,7 @@
 .conteiner {
   margin: 0 auto;
   width: 1158px;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 
 img {
@@ -26,7 +26,7 @@ img {
 }
 
 .brand-text {
-    margin-right: 76px;
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -39,18 +39,18 @@ img {
   color: #2e2f42;
 }
 
-.header-ul{
-    display: flex;
-    gap: 40px;
-    margin-right: 40px;
+.header-ul {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
 }
 
-.header-ul:last-child{
-    margin-right: 0;
+.header-ul:last-child {
+  margin-right: 0;
 }
 
 .navig-link {
-    padding: 24px 0;
+  padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -58,14 +58,14 @@ img {
   line-height: 1.5;
 }
 
-.header-address-ul{
-    display: flex;
-    gap: 40px;
-    margin-right: 40px;
+.header-address-ul {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
 }
 
-.header-address-ul:last-child{
-    margin-right: 0;
+.header-address-ul:last-child {
+  margin-right: 0;
 }
 
 .navig-link:hover {
@@ -93,7 +93,12 @@ img {
 .adress-li {
   font-style: normal;
 }
+
+.section-title {
+  padding: 188px 0;
+}
 .hero-title {
+  max-width: 496px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -101,6 +106,29 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
+}
+
+.button-button {
+  display: block;
+  max-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+}
+.button-button:focus {
+  background-color: #404bbf;
+}
+.button-button:hover {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 .hero-pidtitle {
@@ -134,23 +162,6 @@ body {
   background-color: #ffffff;
   font-size: 16px;
   letter-spacing: 2px;
-}
-
-.button-button {
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  color: #ffffff;
-}
-.button-button:focus {
-  background-color: #404bbf;
-}
-.button-button:hover {
-  background-color: #404bbf;
-  cursor: pointer;
 }
 
 .section-title {
