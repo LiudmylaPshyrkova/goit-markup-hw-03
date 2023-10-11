@@ -2,7 +2,7 @@
 *::after,
 *::before {
 }
-.conteiner {
+.container {
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
@@ -130,8 +130,12 @@ img {
   background-color: #404bbf;
   cursor: pointer;
 }
+.section-content {
+  padding: 120px 0;
+}
 
-.hero-pidtitle {
+/*
+.hero-pidtitle{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 36px;
@@ -147,6 +151,7 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
 }
+*/
 .last-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
