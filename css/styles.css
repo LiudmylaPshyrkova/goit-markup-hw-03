@@ -181,7 +181,9 @@ img {
   line-height: 1.2;
   color: #2e2f42;
 }
-.hero-pidtitle-st {
+*/
+.section-team-title {
+    margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -189,7 +191,11 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
 }
-*/
+.section-team-ul{
+    display:flex;
+    gap: 24px;
+}
+
 .last-title {
   text-align: center;
   margin-bottom: 8px;
@@ -257,5 +263,7 @@ body {
   background-color: #f4f4fd;
 }
 .section-team-li {
+    width:calc((100% - 72px)/4);
+    border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
