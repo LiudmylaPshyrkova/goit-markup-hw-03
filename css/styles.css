@@ -229,6 +229,7 @@ img {
 
 .section-portfolio-secontd-title{
   margin-bottom: 72px;
+  
 }
 
 .section-title {
@@ -258,6 +259,10 @@ img {
 .section-team {
   padding: 120px 0;
   background-color: #f4f4fd;
+}
+.section-content-drei-title{
+  text-align: center;
+  margin-bottom: 8px;
 }
 .section-team-li {
   width: calc((100% - 72px)/4);
