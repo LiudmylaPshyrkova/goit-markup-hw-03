@@ -226,6 +226,11 @@ img {
   border-top: none;
   margin-bottom: 8px;
 }
+
+.section-portfolio-secontd-title{
+  margin-bottom: 72px;
+}
+
 .section-title {
   background-color: #2e2f42;
 }
@@ -243,12 +248,19 @@ img {
   color: #434455;
 }
 
-
+.section-team-secontd-title{
+  text-align: center;
+  margin-bottom: 72px;
+}
+.section-team-div{
+  padding: 32px 0;
+}
 .section-team {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 .section-team-li {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px)/4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
@@ -267,7 +279,7 @@ img {
 }
 
 .footer-brand-text {
-  display: inline;
+  display: inline-block;
   margin-bottom: 16px;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
