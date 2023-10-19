@@ -148,6 +148,7 @@ img {
 }
 .section-content-ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -165,6 +166,7 @@ img {
   overflow: hidden;
 }
 .section-content-list {
+  
   width: calc((100% - (3*24))/4);
   border-radius: 0px 0px 4px 4px;
 }
