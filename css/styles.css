@@ -151,6 +151,11 @@ img {
   flex-wrap: nowrap;
   gap: 24px;
 }
+.section-content-list {
+  width: calc((100% - (3*24))/4);
+  border-radius: 0px 0px 4px 4px;
+}
+
 
 .visually-hidden {
   display: none;
@@ -164,11 +169,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.section-content-list {
-  
-  width: calc((100% - (3*24))/4);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .section-content-drei-title {
