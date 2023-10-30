@@ -3,7 +3,22 @@
 *::before {
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -28,6 +43,7 @@ img {
 
 .header-div {
   display: flex;
+  align-items: center;
 }
 
 .header-nav {
@@ -58,6 +74,7 @@ img {
 }
 
 .header-a {
+  display: block;
   padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
@@ -94,23 +111,24 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: underline;
 }
 
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
-  text-decoration: underline;
   font-size: 16px;
 }
 .adress-li {
   font-style: normal;
+  margin-left: auto;
 }
 
 .section-title {
   padding: 188px 0;
 }
 .main-title {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 496px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -123,6 +141,7 @@ img {
 
 .button-button {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -225,7 +244,6 @@ img {
   width: calc((100% - (3*24)) / 3);
 }
 .section-portfolio-div {
-  
   padding:32px 16px;
   border:1px solid #e7e9fc;
   border-top:none;
@@ -245,9 +263,14 @@ img {
   background-color: #f4f4fd;
 }
 .section-portfolio-p,
-.section-content-p,
 .section-team-p {
   text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.section-content-p{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
